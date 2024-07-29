@@ -40,3 +40,30 @@ nano config.json
 ~/ccminer/start.sh
 ```
 
+
+Untuk membuat script auto run di Termux pada perangkat Android, Anda dapat mengikuti langkah-langkah berikut:
+
+
+
+Pasang Termux:Boot:
+
+Install Termux
+dari Google Play Store atau F-Droid.
+Setelah terpasang, buka Termux dan buat direktori untuk Termux
+jika belum ada:
+
+```
+    mkdir -p ~/.termux/boot
+```
+Pindahkan Script ke Direktori Boot:
+
+Pindahkan script yang telah dibuat ke direktori ~/.termux/boot:
+
+```
+        mv ~/autorun.sh ~/.termux/boot/
+```
+Restart Perangkat:
+Restart perangkat Android Anda. Script autorun.sh akan dijalankan secara otomatis setiap kali perangkat di-boot ulang.
+
+Dengan mengikuti langkah-langkah di atas, Anda dapat membuat script yang akan dijalankan secara otomatis setiap kali perangkat Android Anda dinyalakan menggunakan Termux dan Termux
+
