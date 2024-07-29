@@ -39,5 +39,4 @@ nano config.json
 ```
 ~/ccminer/start.sh
 ```
-Opening repositories:
-D:\15 raven\ccminer-8.21\ccminer-8.21
+
