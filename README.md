@@ -47,23 +47,53 @@ Untuk membuat script auto run di Termux pada perangkat Android, Anda dapat mengi
 
 Pasang Termux:Boot:
 
-Install Termux
-dari Google Play Store atau F-Droid.
-Setelah terpasang, buka Termux dan buat direktori untuk Termux
-jika belum ada:
+1. Grant Permissions
 
+Ensure Termux has the necessary permissions, especially for accessing storage:
+```
+termux-setup-storage
+```
+2. Set Up the Boot Script
 ```
 mkdir -p ~/.termux/boot
 ```
-Pindahkan Script ke Direktori Boot:
-
-Pindahkan script yang telah dibuat ke direktori ~/.termux/boot:
-
+3. Create a new script file in the .termux/boot directory:
 ```
-mv ~/start.sh ~/.termux/boot/
+nano ~/.termux/boot/startup.sh
 ```
-Restart Perangkat:
-Restart perangkat Android Anda. Script autorun.sh akan dijalankan secara otomatis setiap kali perangkat di-boot ulang.
+4. Add your desired commands to the script. For instance:
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock  # Keep the device awake
+~/ccminer/start.sh
+```
+5. Set the appropriate permissions for the script:
+```
+chmod +x ~/.termux/boot/startup.sh  
+```
+Reboot your device to test the setup. After rebooting, Termux
+should automatically execute your script......
 
-Dengan mengikuti langkah-langkah di atas, Anda dapat membuat script yang akan dijalankan secara otomatis setiap kali perangkat Android Anda dinyalakan menggunakan Termux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
