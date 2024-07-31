@@ -42,9 +42,9 @@ nano config.json
 ```
 ~/ccminer/start.sh
 ```
+ 
 
-
-Untuk membuat script auto run di Termux pada perangkat Android, Anda dapat mengikuti langkah-langkah berikut:
+# Untuk membuat script auto run di Termux pada perangkat Android, Anda dapat mengikuti langkah-langkah berikut:
 
 
 
