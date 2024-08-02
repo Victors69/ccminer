@@ -56,6 +56,16 @@ Ensure Termux has the necessary permissions, especially for accessing storage:
 ```
 termux-setup-storage
 ```
+```
+termux-wake-lock
+```
+```
+pkg install termux-services
+```
+```
+sv-enable
+```
+
 2. Set Up the Boot Script
 ```
 mkdir -p ~/.termux/boot
