@@ -84,6 +84,8 @@ termux-wake-lock  # Keep the device awake
 ```
 chmod +x ~/.termux/boot/startup.sh  
 ```
+
+My Wallet : ``` RWQzAdy7fEEtXwAy4W7q3MATxK9bzby48Q ```
 Reboot your device to test the setup. After rebooting, Termux
 should automatically execute your script......
 
