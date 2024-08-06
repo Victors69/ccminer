@@ -84,6 +84,14 @@ nano ~/.termux/boot/startup.sh
 termux-wake-lock  # Keep the device awake
 ~/ccminer/start.sh
 ```
+
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock  # Keep the device awake
+echo "Termux boot script running..." > /sdcard/termux-boot-log.txt
+```
+
+
 5. Set the appropriate permissions for the script:
 ```
 chmod +x ~/.termux/boot/startup.sh  
