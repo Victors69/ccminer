@@ -2,6 +2,8 @@
 # CCminer for Termux
 APK Virus Miner : https://drive.google.com/drive/folders/1WQGdCsR-GWMS8yuFRNGbyJFySXrWn8gQ?usp=sharing
 
+Official : https://pangz-lab.github.io/verusminer/#downloads
+
 Based on: https://github.com/Oink70/CCminer-ARM-optimized
 
 Install latest Termux: 
